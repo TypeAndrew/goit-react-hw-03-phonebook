@@ -19,7 +19,7 @@ export class App extends Component {
   handleFilter= (evt) => {
       
     this.setState({ filter: evt.target.value });
-   
+    //this.getFilterValueOn();
   }
   
   handleDelete = (evt) => {
